@@ -1,0 +1,321 @@
+
+/*universelt css*/
+
+img{
+    width: 100%;
+	height: 100%;
+    border-radius: 2em;
+    margin: auto;
+}
+body{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #F3F5EF;
+    background-image: url(../IMG/baggrund.webp);
+    background-size: cover;
+}
+
+/*Tilbage knap*/
+
+.tilbage_knap{
+    list-style-type: none;
+    background-color: #E1555D;
+    width: fit-content;
+    padding: 1.5%;
+    margin: 2%;
+    text-align: left; 
+    font-family: "Quicksand";
+    font-size: 250%;
+    border-radius: 3em;
+}
+
+.tilbage_knap a{
+    text-decoration: none;
+    color: #F3F5EF;
+}
+
+.tilbage_knap:hover{
+    background-color: #b61d25 ;
+    padding: 1.7%;
+}
+
+/*Overskrifter og tekst*/
+
+h1{
+    font-family: "Quicksand";
+    text-align: center;
+    font-size: 350%;
+}
+
+h2{
+    font-family: "Quicksand";
+    font-size: 200%;
+    text-align: center;
+}
+
+h3{
+    font-family: "Quicksand";
+    font-size: 100%;
+    text-align: center;
+}
+
+dl, dd, dt{
+    font-family: "Quicksand";
+    font-size: 120%;
+}
+
+dt{
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+p{
+    font-family: "Quicksand";
+}
+
+/* Index side*/
+
+header{
+    background-color: #26226C;
+}
+
+.twist_index{
+grid-row: span 1;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.grahpic_index{
+    grid-row: span 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navmenu_index{
+    list-style-type: none;
+    background-color: #F3F5EF;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+li a{
+    font-family: "Quicksand";
+    font-size: 300%;
+    text-decoration: none;
+    margin: 2%;
+    color: black;
+}
+
+li a:hover{
+    color: #D6AE08 ;
+}
+
+/*Rullebar*/
+
+.rullebar{
+    width: 75%;
+    height: 120%;
+    background-color: #F3F5EF;
+    margin: auto;
+    border-radius: 3em;
+    overflow: hidden;
+}
+
+.rullebar p{
+    position: relative;
+    top: 22%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+/*Om mig*/
+
+.cv_fakta{
+    background-color:#FBC696;
+    border: 1px solid black;
+    border-radius: 3em;
+    padding: 10%;
+    margin: 1%;
+}
+
+.cv_billede{
+    object-fit: cover;
+    border-radius: 3em;
+    margin: 1%;
+}
+
+.uddanelse{
+    background-color:#C17FE6;
+    border: 1px solid black;
+    border-radius: 3em;
+    padding: 10%;
+    margin: 1%;
+}
+
+.arb_erf{
+    background-color:#F8FA94;
+    border: 1px solid black;
+    border-radius: 3em;
+    padding: 10%;
+    margin: 1%;
+}
+
+.kompetancer{
+    background-color:#8CF3EF;
+    border: 1px solid black;
+    border-radius: 3em;
+    padding: 10%;
+    margin: 1%;
+}
+
+ul.cirkel{
+    list-style-type: circle;
+    color: black;
+    font-family: "Quicksand";
+    font-size: 120%;
+}
+
+/*Portfolio*/
+.tema_2_knap{
+    background-image:url(../IMG/tema_bg1.webp);
+    border-radius: 3em;
+    background-size: 100%;
+    aspect-ratio: 1/1;
+    margin: auto;
+    width: 75%;
+}
+
+.tema_2_knap:hover{
+    filter: brightness(115%);
+}
+
+.tema_3_knap{
+    background-image:url(../IMG/tema_bg2.webp);
+    border-radius: 3em;
+    background-size: 100%;
+    aspect-ratio: 1/1;
+    margin: auto;
+    width: 75%;
+}
+
+.tema_3_knap:hover{
+    filter: brightness(115%);
+}
+
+.tema_4_knap{
+    background-image:url(../IMG/tema_bg3.webp);
+    border-radius: 3em;
+    background-size: 100%;
+    aspect-ratio: 1/1;
+    margin: auto;
+    width: 75%;
+}
+
+.tema_4_knap:hover{
+    filter: brightness(115%);
+}
+
+.tema_5_knap{
+    background-image:url(../IMG/tema_bg4.webp);
+    border-radius: 3em;
+    background-size: 100%;
+    aspect-ratio: 1/1;
+    margin: auto;
+    width: 75%;
+}
+
+.tema_5_knap:hover{
+    filter: brightness(115%);
+}
+
+.tema_pos{
+    text-align: center;
+    font-size: 350%;
+    
+    padding-top: 37%;
+    margin-top: 2%;
+    overflow: hidden;
+    
+}
+
+.tema_pos:hover{
+    text-align: center;
+    font-size: 400%;
+}
+
+.tema_h1{
+    font-family: "Quicksand";
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+/* Tema 2*/
+
+.tekst_tema2{
+    background-color:#ecf4dc;
+    border: 1px solid black;
+    border-radius: 3em;
+    padding: 10%;
+    margin: 1%;
+}
+
+/* Tema 3*/
+
+.tekst_tema3{
+    background-color:#ecf4dc;
+    border: 1px solid black;
+    border-radius: 3em;
+    padding: 6%;
+    margin: 1%;
+}
+
+.img_t3{
+ object-fit: fill;
+ margin: 1%;
+}
+
+.video_tema3{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/* Tema 4*/
+
+.tekst_tema4{
+    background-color:#ecf4dc;
+    border: 1px solid black;
+    border-radius: 3em;
+    padding: 4%;
+    margin: 1%;
+}
+
+.img_t4{
+ object-fit: fill;
+ margin: 1%;
+}
+
+/* Tema 5*/
+
+.tekst_tema5{
+    background-color:#ecf4dc;
+    border: 1px solid black;
+    border-radius: 3em;
+    padding: 4%;
+    margin: 1%;
+}
+
+.img_t5{
+    object-fit: fill;
+    margin: 1%;
+}
